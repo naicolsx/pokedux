@@ -16,7 +16,7 @@ export const setFavorite = (payload) => ({
   payload,
 });
 
-export const getPokemonWithDetails =
+export const getPokemonsWithDetails =
   (pokemons = []) =>
   async (dispatch) => {
     const pokemonDetailed = await Promise.all(
